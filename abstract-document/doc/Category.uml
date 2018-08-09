@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.eshare.abstractdocument.domain.Category</OriginalElement>
+  <nodes>
+    <node x="0.0" y="537.0">com.eshare.abstractdocument.App</node>
+    <node x="270.5" y="439.0">com.eshare.abstractdocument.domain.Digital</node>
+    <node x="1333.0" y="205.5">com.eshare.abstractdocument.domain.HasCategory</node>
+    <node x="425.0" y="205.5">com.eshare.abstractdocument.domain.HasBrand</node>
+    <node x="1103.0" y="205.5">com.eshare.abstractdocument.domain.HasWeight</node>
+    <node x="646.0" y="159.0">com.eshare.abstractdocument.AbstractGoods</node>
+    <node x="0.0" y="205.5">com.eshare.abstractdocument.domain.HasType</node>
+    <node x="531.5" y="439.0">com.eshare.abstractdocument.domain.Category</node>
+    <node x="204.0" y="205.5">com.eshare.abstractdocument.domain.HasPrice</node>
+    <node x="467.8166666666667" y="0.0">com.eshare.abstractdocument.Goods</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.eshare.abstractdocument.domain.HasPrice" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-38.5" />
+      <point x="304.5" y="129.0" />
+      <point x="577.0666666666667" y="129.0" />
+      <point x="-109.25" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Digital" target="com.eshare.abstractdocument.domain.HasPrice">
+      <point x="-48.200000000000045" y="-26.5" />
+      <point x="342.79999999999995" y="409.0" />
+      <point x="254.25" y="409.0" />
+      <point x="-50.25" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Category" target="com.eshare.abstractdocument.domain.HasType">
+      <point x="-102.79999999999995" y="-26.5" />
+      <point x="557.2" y="369.0" />
+      <point x="138.0" y="369.0" />
+      <point x="46.0" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Digital" target="com.eshare.abstractdocument.domain.HasBrand">
+      <point x="0.0" y="-26.5" />
+      <point x="391.0" y="379.0" />
+      <point x="475.25" y="379.0" />
+      <point x="-50.25" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Digital" target="com.eshare.abstractdocument.AbstractGoods">
+      <point x="48.200000000000045" y="-26.5" />
+      <point x="439.20000000000005" y="389.0" />
+      <point x="755.25" y="389.0" />
+      <point x="-109.25" y="85.0" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Category" target="com.eshare.abstractdocument.AbstractGoods">
+      <point x="51.39999999999998" y="-26.5" />
+      <point x="711.4" y="399.0" />
+      <point x="973.75" y="399.0" />
+      <point x="109.25" y="85.0" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.HasType" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-38.5" />
+      <point x="92.0" y="119.0" />
+      <point x="504.23333333333346" y="119.0" />
+      <point x="-182.08333333333326" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.HasBrand" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-38.5" />
+      <point x="525.5" y="139.0" />
+      <point x="649.9000000000001" y="139.0" />
+      <point x="-36.41666666666663" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Category" target="com.eshare.abstractdocument.domain.HasBrand">
+      <point x="0.0" y="-26.5" />
+      <point x="660.0" y="349.0" />
+      <point x="575.75" y="349.0" />
+      <point x="50.25" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.HasWeight" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-38.5" />
+      <point x="1208.0" y="129.0" />
+      <point x="795.5666666666667" y="129.0" />
+      <point x="109.25" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Category" target="com.eshare.abstractdocument.domain.HasWeight">
+      <point x="102.79999999999995" y="-26.5" />
+      <point x="762.8" y="419.0" />
+      <point x="1260.5" y="419.0" />
+      <point x="52.5" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Digital" target="com.eshare.abstractdocument.domain.HasWeight">
+      <point x="96.40000000000009" y="-26.5" />
+      <point x="487.4000000000001" y="409.0" />
+      <point x="1155.5" y="409.0" />
+      <point x="-52.5" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Category" target="com.eshare.abstractdocument.domain.HasPrice">
+      <point x="-51.39999999999998" y="-26.5" />
+      <point x="608.6" y="359.0" />
+      <point x="354.75" y="359.0" />
+      <point x="50.25" y="38.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.HasCategory" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-38.5" />
+      <point x="1442.5" y="119.0" />
+      <point x="868.4" y="119.0" />
+      <point x="182.08333333333326" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.AbstractGoods" target="com.eshare.abstractdocument.Goods">
+      <point x="0.0" y="-85.0" />
+      <point x="864.5" y="139.0" />
+      <point x="722.7333333333335" y="139.0" />
+      <point x="36.41666666666674" y="49.5" />
+    </edge>
+    <edge source="com.eshare.abstractdocument.domain.Digital" target="com.eshare.abstractdocument.domain.HasType">
+      <point x="-96.39999999999998" y="-26.5" />
+      <point x="294.6" y="419.0" />
+      <point x="46.0" y="419.0" />
+      <point x="-46.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="811.5" y="201.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
